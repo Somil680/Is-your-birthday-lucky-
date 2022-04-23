@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+input{
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    font-size: larger;
+    border-radius: 20px;
+}
+button{
+    width: 30%;
+    font-size: larger;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+    
+      margin : 10px;
+     padding: 15px 45px; 
+        text-align : center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       
+}
+
+button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+ }
+.main{
+    text-align: center;
+    margin-top: 80px;
+}
+#outputBox{
+    font-size: 40px;
+    padding-top: 20px;
+}
+body{
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+font-family: 'Updock', cursive;
+
+}
